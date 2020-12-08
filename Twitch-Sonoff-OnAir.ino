@@ -33,7 +33,7 @@
 //
 #define PROJECT_NAME "SONOFF-TWITCH"
 
-const char* host = "18.223.188.166"; // This is the host running the Python3 companion script
+const char* host = "0.0.0.0"; // This is the host running the Python3 companion script
 const int tcpPort = 1234;       // Port the script is listening on
 
 const char* twitchUser = "baxcast";
