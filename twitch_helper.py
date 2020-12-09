@@ -17,8 +17,8 @@ import socket
 #Thanks Inzer Lee!:
 #https://stackoverflow.com/a/64442969
 
-client_id = "4ak2extga2f8z9cqq5lbqbaw7agz9k"
-client_secret = "3deib4n8s8umevpwyyfo9njrtv51uz"
+client_id = "yourclientid"
+client_secret = "yourclientsecre"
 
 twitch = Twitch(client_id, client_secret)
 twitch.authenticate_app([])
